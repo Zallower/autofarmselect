@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "autofarmselect",
+  "version": "1.0.0",
+  "name": "AutoFarmSelect",
+  "description": "面向生存类服务器的纯客户端 Fabric 模组，可自动完成经济作物补种与灌溉器补水。",
+  "authors": [
+    "Zallower"
+  ],
+  "license": "MIT",
+  "icon": "assets/autofarmselect/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.afs.AutoFarmSelect"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "contact": {
+    "sources": "https://github.com/Zallower/autofarmselect",
+    "homepage": "https://github.com/Zallower/autofarmselect",
+    "issues": "https://github.com/Zallower/autofarmselect/issues"
+  }
+}
